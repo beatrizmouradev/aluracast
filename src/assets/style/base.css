@@ -195,3 +195,51 @@ body {
     content: url("../img/icone-biblioteca-mb.svg");
 }
 
+/*rodape*/
+.rodape {
+    background-color: var(--azul-medio);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* Genericos como barra, botao, etc) */
+.rodape__barra {
+    position: relative;
+    opacity: 0.9;
+    border-radius: 10px;
+    background-color: white;
+    height: 4px;
+}
+
+.rodape__barra div {
+    position: absolute;
+    top: 0;
+    height: 4px;
+    border-radius: 10px;
+    opacity: 0.35;
+    background-color: white;
+}
+
+.rodape__horario {
+    font-size: .75rem;
+}
+
+.barra__container--reproducao, .rodape__barra--reproducao div {
+    width: 37vw
+}
+
+.rodape__barra--reproducao {
+    width: 25vw;
+}
+
+.barra__container--volume, .rodape__barra--volume div  {
+    width: 8vw;
+}
+
+.rodape__barra--volume {
+    width: 4vw;
+}
+
+
